@@ -1,4 +1,8 @@
-.container {
+.App {
   margin: 0 auto;
   background-color: bisque;
+}
+
+.logo {
+display: block;
 }
