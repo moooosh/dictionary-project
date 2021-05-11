@@ -1,5 +1,6 @@
 
 import './App.css';
+import Dictionary from "./Dictionary.js"
 
 function App() {
   return (
@@ -7,8 +8,16 @@ function App() {
 
       <header className="App-header">
         <img src="./dictionarylogo.png" className="App-logo" alt="logo" />
-       
       </header>
+      
+      <main>
+      <Dictionary />
+
+      </main>
+
+      <footer>
+        Created by Shanese Mattiske
+      </footer>
     </div>
   );
 }
