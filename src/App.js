@@ -16,7 +16,9 @@ function App() {
       </main>
 
       <footer>
-        Created by Shanese Mattiske
+        Created by Shanese Mattiske |
+        <a href="https://github.com/moooosh/dictionary-project" target="_blank">Github</a> | 
+        <a href="https://pedantic-pasteur-dc21dc.netlify.app/" target="_blank">Netlify</a>
       </footer>
     </div>
   );
