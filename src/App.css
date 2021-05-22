@@ -1,8 +1,10 @@
 .App {
   margin: 40px;
   background-color: bisque;
+  border-radius: 30px;
+  
 }
 
 .logo {
-display: inline-block;
+display: fixed;
 }

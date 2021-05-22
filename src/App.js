@@ -1,4 +1,3 @@
-
 import './App.css';
 import Dictionary from "./Dictionary.js"
 
@@ -17,8 +16,8 @@ function App() {
 
       <footer>
         Created by Shanese Mattiske |
-        <a href="https://github.com/moooosh/dictionary-project" target="_blank">Github</a> | 
-        <a href="https://pedantic-pasteur-dc21dc.netlify.app/" target="_blank">Netlify</a>
+        <a href="https://github.com/moooosh/dictionary-project" target="_blank" rel="noreferrer">Github</a> | 
+        <a href="https://pedantic-pasteur-dc21dc.netlify.app/" target="_blank" rel="noreferrer">Netlify</a>
       </footer>
     </div>
   );
