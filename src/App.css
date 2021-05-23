@@ -2,9 +2,10 @@
   margin: 40px;
   background-color: bisque;
   border-radius: 30px;
-  
+  padding: 20px;
 }
 
-.logo {
+img.App-logo {
 display: fixed;
+width: 300px;
 }
