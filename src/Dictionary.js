@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios"
 import Results from "./Results";
+import "./Dictionary.css"
 
 export default function Dictionary() {
     const [keyword, setKeyword] = useState("");
@@ -34,6 +35,7 @@ export default function Dictionary() {
                     placeholder="Search a word..."
                     autoComplete="off"
                     onChange={handleChange}
+                    className="search-bar"
                     />
                  
                     <input type="submit"
