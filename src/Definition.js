@@ -1,4 +1,5 @@
 import React from "react";
+import "./Definitions.css"
 
 export default function Definition (props) {
     console.log(props.definition)
