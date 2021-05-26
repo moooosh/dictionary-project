@@ -3,9 +3,10 @@
   background-color: bisque;
   border-radius: 30px;
   padding: 20px;
+  text-align: center;
 }
 
 img.App-logo {
-display: fixed;
-width: 300px;
+text-align: center;
+width: 700px;
 }
