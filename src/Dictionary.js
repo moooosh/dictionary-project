@@ -33,17 +33,15 @@ export default function Dictionary() {
 
             <input 
                     type="search"
-                    placeholder="Search a word..."
+                    placeholder="Search for a word...."
                     autoComplete="off"
                     onChange={handleChange}
                     className="search-bar"
                     />
                  
-                    <input type="submit"
-                    placeholder="Submit"
-                    className="search-button" />
+        
         </form>
-        <h6>What would you like to search for today?</h6>
+        
         </div>
         <Results results={result}/>
         
