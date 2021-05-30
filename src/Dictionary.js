@@ -27,6 +27,7 @@ export default function Dictionary() {
     }
     
     return (
+        <div className="dictionary">
         <div className="search-bar">
         <form onSubmit={search}>
 
@@ -42,10 +43,11 @@ export default function Dictionary() {
                     placeholder="Submit"
                     className="search-button" />
         </form>
-
-        <Results results={result}/>
+        <h6>What would you like to search for today?</h6>
         </div>
-
+        <Results results={result}/>
+        
+        </div>
        
     )
 }

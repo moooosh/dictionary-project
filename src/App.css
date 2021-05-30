@@ -3,10 +3,15 @@
   background-color: bisque;
   border-radius: 30px;
   padding: 20px;
+  
+}
+
+header {
   text-align: center;
 }
 
 img.App-logo {
-text-align: center;
-width: 700px;
+
+width: 600px;
+
 }

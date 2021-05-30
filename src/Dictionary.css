@@ -1,8 +1,14 @@
+form {
+    margin-left: 10px;
+}
 
+h6 {
+    margin: 10px;
+}
 
 input.search-bar{
     padding: 10px;
-    
+
 }
 
 input.search-button {
