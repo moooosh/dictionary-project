@@ -12,12 +12,19 @@ export default function Dictionary() {
 
         let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en_US/${keyword}`
         axios.get(apiUrl).then(handleResponse)
+
+        let pexelsApi = "563492ad6f917000010000013efe4e3bb3ec495cbc8d2598cb4d0855"
+        let pexelsUrl = `https://api.pexels.com/v1/search?query=${keyword}&per_page=1`
+        let headers = { Authorization: `Bearer ${pexelsApi}` };
+        axios.get(pexelsUrl, { headers: headers }).then(handlePexelsResponse);
     }
 
     function handleResponse(response) {
-
        setResult(response.data[0])
-        console.log(response.data[0].meanings[0].definitions[0].definition)
+    }
+
+    function handlePexelsResponse(response) {
+        console.log(response);
     }
 
 
