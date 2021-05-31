@@ -4,11 +4,10 @@ import Phonetic from "./Phonetic.js"
 import "./Results.css";
 
 export default function Results (props) {
-    console.log(props.results)
 if(props.results) {
     return (
         <div className="Results">
-            <div className="word">
+            <section className="word">
           <h2><strong>{props.results.word}</strong></h2>
           {props.results.phonetics.map(function(phonetic, index) {
               return (
@@ -17,7 +16,7 @@ if(props.results) {
 </div>
               );
           })}
-          </div>
+          </section>
           {props.results.meanings.map(function(definition, index) {
               return (
                   <div key={index}>

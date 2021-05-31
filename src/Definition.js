@@ -3,7 +3,6 @@ import "./Definitions.css"
 import Synonyms from "./Synonyms.js"
 
 export default function Definition (props) {
-    console.log(props.definition)
     return (
         <div className="definitions">
 <h3>{props.meaning.partOfSpeech}</h3>
@@ -13,7 +12,7 @@ export default function Definition (props) {
             <p>
                 {definition.definition}
                 <br />
-                <em> {definition.example}</em>
+                <em> ~ {definition.example}</em>
                
             </p>
             <Synonyms synonyms={definition.synonyms} />

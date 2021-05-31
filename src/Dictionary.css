@@ -4,14 +4,17 @@ form {
 
 
 input.search-bar{
-    padding: 10px;
+    padding: 20px;
     width: 400px;
     border-radius: 20px;
     border-style: none;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1)
 }
 
 h6 {
     text-align: center;
     margin: 10px;
 }
+
+
 
